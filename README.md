@@ -91,7 +91,19 @@ System name: plan_ilimitado_saldo_x
 Deje el resto de la información por defecto
 ```
 
-> Haga clic en el ling Publish
+> Haga clic en el link Publish
+
+> Seleccione la opción ActiveDocs, haga clic en el link "Create your first spec", diligencie la siguiente información, reemplace x con el número asignado a cada integrante y al final haga clic en el botón "Create Service"
+
+```
+Name: Swagger consulta saldo x
+System name: swagger_consulta_saldo_x
+Seleccione el check box Publish?
+Description: Documentación API consulta de saldo
+API JSON Spec: 
+
+Seleccione el check box Skip swagger validations
+```
 
 > Seleccione la opción Configuration en la siguiente ruta Integration -> Configuration, haga clic en el botón "Promote v. 1 to Staging APICast", después promueva la versión al API cast de Producción haciendo clic en el botón "Promote v. 1 to Production APICast"
 
@@ -111,7 +123,16 @@ Organization: Cuenta X
 
 > Seleccione el link Service Suscriptions, haga clic en el link "Unsubscribe", acepte y posteriormente haga clic en el link Subscribe del Service Consulta Saldo X, seleccione el Plan Default y haga clic en el botón "Create Subscription"
 
-> Vuelva al link de Applications de la parte superior, haga clic en link "Create Application" 
+> Vuelva al link de Applications de la parte superior, haga clic en link "Create Application", diligencie los siguientes datos, reemplace x con el número asignado a cada integrante y haga clic en el botón "Create Application".
+
+```
+Application plan: Plan Ilimitado Saldo X
+Service plan: Default
+Name: Aplication X
+Description: Aplicacion de ejemplo para consumir el API de consulta de saldo
+```
+
+> Tome nota del client_id y client_secret que se generaron para la aplicación
 
 ```
 ```
