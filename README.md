@@ -107,9 +107,6 @@ Seleccione el check box Skip swagger validations
 
 > Seleccione la opción Configuration en la siguiente ruta Integration -> Configuration, haga clic en el botón "Promote v. 1 to Staging APICast", después promueva la versión al API cast de Producción haciendo clic en el botón "Promote v. 1 to Production APICast"
 
-```
-```
-
 > Seleccione la Opción Audience en el select de la parte superior e ingrese a la ruta Accounts -> Listing, haga clic en el link "Create", diligencie los siguientes datos, reemplace x con el número asignado a cada integrante y haga clic en el botón "Create".
 
 ```
@@ -134,5 +131,33 @@ Description: Aplicacion de ejemplo para consumir el API de consulta de saldo
 
 > Tome nota del client_id y client_secret que se generaron para la aplicación
 
+### Pruebe el consumo del API
+
+> Con la aplicación Postman realice el consumo del servicio, configurando la URL, la opción de authorization y el body respectivo, si tiene dudas preguntele al instructor
+
 ```
+Methodo: POST
+URL API: https://{host_API}/consultaSaldo
+
+URL token: http://claro-sso-idp-desa.apps.osenext01.claro.amx/auth/realms/test/protocol/openid-connect/token
+Client ID: <El que se tomo del punto anterior>
+Client Secret: <El que se tomo del punto anterior>
+
+Body:
+{
+    "numeroCuenta": "325418764522"
+}
 ```
+
+> Verifique que reciba una respuesta como esta:
+
+```
+{
+    "saldo": 2300000,
+    "fecha": "2020-11-18T20:12:57.079+00:00"
+}
+```
+
+> Ingrese al admin portal y verifique la gráfica de Analytics del API que desarrollo
+
+> Realice cambios en la información de seguridad, pruebe el servicio y verifique la respuesta que obtiene.
