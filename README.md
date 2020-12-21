@@ -9,7 +9,7 @@ Laboratorio para crear un API en 3scale
 
 > Por medio de los siguientes pasos se creara un API en 3scale 2.9
 
-### Crear Backend
+### Crear el Backend
 
 > Ingresar a la URL [Admin Portal 3scale](https://3scale-admin.apps.osepext01.claro.amx/), las credenciales las indicará el instructor
 
@@ -25,6 +25,8 @@ System name: consulta_saldo_bk_x
 Description: Backend que implementa la consulta de saldo.
 Private Base URL: http://consulta-saldo...
 ```
+
+### Crear y configurar el producto
 
 > Seleccionar el tab Products de la sección de APIs del Dashboard de 3scale
 
@@ -106,6 +108,8 @@ Seleccione el check box Skip swagger validations
 ```
 
 > Seleccione la opción Configuration en la siguiente ruta Integration -> Configuration, haga clic en el botón "Promote v. 1 to Staging APICast", después promueva la versión al API cast de Producción haciendo clic en el botón "Promote v. 1 to Production APICast"
+
+### Crear la cuenta y la aplicación
 
 > Seleccione la Opción Audience en el select de la parte superior e ingrese a la ruta Accounts -> Listing, haga clic en el link "Create", diligencie los siguientes datos, reemplace x con el número asignado a cada integrante y haga clic en el botón "Create".
 
