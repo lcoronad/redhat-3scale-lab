@@ -98,14 +98,20 @@ Deje el resto de la información por defecto
 ```
 ```
 
-
-> 
+> Seleccione la Opción Audience en el select de la parte superior e ingrese a la ruta Accounts -> Listing, haga clic en el link "Create", diligencie los siguientes datos, reemplace x con el número asignado a cada integrante y haga clic en el botón "Create".
 
 ```
+Username: user_admin_x
+Email: user_admin_x@claro.com.ar
+Password: (genere uno que recuerde)
+Organization: Cuenta X
 ```
 
+> Una vez este dentro de la cuenta, seleccione el link Applications de la parte superior, haga clic en la aplicación que se creo por defecto, posteriormente haga clic en el link Edit, haga clic en el botón "Delete"
 
-> 
+> Seleccione el link Service Suscriptions, haga clic en el link "Unsubscribe", acepte y posteriormente haga clic en el link Subscribe del Service Consulta Saldo X, seleccione el Plan Default y haga clic en el botón "Create Subscription"
+
+> Vuelva al link de Applications de la parte superior, haga clic en link "Create Application" 
 
 ```
 ```
