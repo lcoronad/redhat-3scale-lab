@@ -212,9 +212,11 @@ Password: (genere uno que recuerde)
 Organization: Cuenta X
 ```
 
-> Una vez este dentro de la cuenta, seleccione el link "Applications" de la parte superior, haga clic en la aplicación que se creo por defecto, posteriormente haga clic en el link Edit, haga clic en el botón "Delete"
+> Omita este paso si la cuenta no tiene una aplicación asociada por defecto, una vez este dentro de la cuenta, seleccione el link "Applications" de la parte superior, haga clic en la aplicación que se creo por defecto, posteriormente haga clic en el link Edit, haga clic en el botón "Delete"
 
-> Seleccione el link Service Suscriptions, haga clic en el link "Unsubscribe", acepte y posteriormente haga clic en el link Subscribe del Service Consulta Saldo X, seleccione el Plan Default y haga clic en el botón "Create Subscription"
+> Omita este paso si la cuenta no tiene una suscripción asociada por defecto, seleccione el link Service Suscriptions, haga clic en el link "Unsubscribe", acepte el mensaje emergente
+
+> Posteriormente haga clic en el link "Subscribe" del Service Consulta Saldo X, seleccione el Plan Default y haga clic en el botón "Create Subscription".
 
 > Vuelva al link de Applications de la parte superior, haga clic en link "Create Application", diligencie los siguientes datos, reemplace x con el número asignado a cada integrante y haga clic en el botón "Create Application".
 
