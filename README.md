@@ -64,7 +64,7 @@ Path: /
 
 ```
 Seleccione el check box enable_access_logs
-Custom logging format: [{{time_local}}] response_api_consulta_saldo {{req.headers.X-Correlation-ID}} {{host}}:{{server_port}} {{remote_addr}}:{{remote_port}} \"{{request}}\" {{status}} {{body_bytes_sent}} ({{request_time}}) {{post_action_impact}}
+Custom logging format: [{{time_local}}] response_api_consulta_saldo_X {{host}}:{{server_port}} {{remote_addr}}:{{remote_port}} \"{{request}}\" {{status}} {{body_bytes_sent}} ({{request_time}}) {{post_action_impact}}
 ```
 
 > Seleccione la opción Methods & Metrics en la siguiente ruta Integration -> Methods & Metrics, haga clic en el link New method, diligencie la siguiente información, reemplace x con el número asignado a cada integrante y al final haga clic en el botón "Create Method"
@@ -162,6 +162,6 @@ Body:
 }
 ```
 
-> Ingrese al admin portal y verifique la gráfica de Analytics del API que desarrollo
+> Ingrese al admin portal y verifique la gráfica de Analytics del API que desarrollo, preguntele al instructor que revise el log del APICast para determinar si se escribe el log de la política configurada.
 
 > Realice cambios en la información de seguridad, pruebe el servicio y verifique la respuesta que obtiene.
