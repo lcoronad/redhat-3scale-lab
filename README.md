@@ -53,6 +53,8 @@ OICD Authorization Flow: Service Accounts Flow
 El resto de la parametrización dejarla por defecto.
 ```
 
+> Tome nota del host generado para el APICast staging.
+
 > Seleccione la opción Backends en la siguiente ruta Integration -> Backends, haga clic en el link Add Backend, diligencie la siguiente información y al final haga clic en el botón "Add to Product"
 
 ```
@@ -234,7 +236,7 @@ Description: Aplicacion de ejemplo para consumir el API de consulta de saldo
 
 ### Pruebe el consumo del API
 
-> Con la aplicación Postman realice el consumo del servicio, configurando la URL (reemplace el {host_API} por el host generado para el APICast Staging), la opción de authorization y el body respectivo, si tiene dudas preguntele al instructor
+> Con la aplicación Postman realice el consumo del servicio, configurando la URL (reemplace el {host_API} por el host guardado del APICast Staging), la opción de authorization y el body respectivo, si tiene dudas preguntele al instructor
 
 ```
 Methodo: POST
