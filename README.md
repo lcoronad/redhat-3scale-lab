@@ -15,7 +15,7 @@ Laboratorio para crear un API en 3scale
 
 > Seleccionar el tab Backends de la sección de APIs del Dashboard de 3scale
 
-> Hacer clic en el link NEW BACKEND
+> Hacer clic en el link "NEW BACKEND"
 
 > Crear el backend con la siguiente información, reemplace x con el número asignado a cada integrante y haga clic en el botón "Create Backend"
 
@@ -23,14 +23,14 @@ Laboratorio para crear un API en 3scale
 Name: Consulta Saldo BK X
 System name: consulta_saldo_bk_x
 Description: Backend que implementa la consulta de saldo.
-Private Base URL: http://consulta-saldo...
+Private Base URL: https://consulta-saldo-rhtest.apps.osepext01.claro.amx
 ```
 
 ### Crear y configurar el producto
 
 > Seleccionar el tab Products de la sección de APIs del Dashboard de 3scale
 
-> Hacer clic en el link NEW PRODUCT
+> Hacer clic en el link "NEW PRODUCT"
 
 > Crear el product con la siguiente información, reemplace x con el número asignado a cada integrante y haga clic en el botón "Create Product"
 
@@ -93,7 +93,7 @@ System name: plan_ilimitado_saldo_x
 Deje el resto de la información por defecto
 ```
 
-> Haga clic en el link Publish
+> Haga clic en el link "Publish"
 
 > Seleccione la opción ActiveDocs, haga clic en el link "Create your first spec", diligencie la siguiente información, reemplace x con el número asignado a cada integrante y al final haga clic en el botón "Create Service"
 
@@ -212,7 +212,7 @@ Password: (genere uno que recuerde)
 Organization: Cuenta X
 ```
 
-> Una vez este dentro de la cuenta, seleccione el link Applications de la parte superior, haga clic en la aplicación que se creo por defecto, posteriormente haga clic en el link Edit, haga clic en el botón "Delete"
+> Una vez este dentro de la cuenta, seleccione el link "Applications" de la parte superior, haga clic en la aplicación que se creo por defecto, posteriormente haga clic en el link Edit, haga clic en el botón "Delete"
 
 > Seleccione el link Service Suscriptions, haga clic en el link "Unsubscribe", acepte y posteriormente haga clic en el link Subscribe del Service Consulta Saldo X, seleccione el Plan Default y haga clic en el botón "Create Subscription"
 
