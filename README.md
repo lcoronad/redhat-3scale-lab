@@ -47,7 +47,7 @@ Description: API que expone la consulta de saldo
 Deployment: APIcast 3scale managed
 Authentication: OpenID Connect
 OpenID Connect Issuer Type: Red Hat Single Sign-On
-OpenID Connect Issuer: http://3scale-sso-sync:65dc647d-8afc-40c1-8a4d-8455d86c6139@claro-sso-idp-desa.apps.osenext01.claro.amx/auth/realms/test/protocol/openid-connect/token
+OpenID Connect Issuer: https://3scale-sso-sync:65dc647d-8afc-40c1-8a4d-8455d86c6139@claro-sso-idp-desa.apps.osenext01.claro.amx/auth/realms/test
 OICD Authorization Flow: Service Accounts Flow
 El resto de la parametrización dejarla por defecto.
 ```
@@ -227,6 +227,8 @@ Description: Aplicacion de ejemplo para consumir el API de consulta de saldo
 
 > Tome nota del client_id y client_secret que se generaron para la aplicación
 
+> Preguntele al instructor si su client_id se creo correctamente en SSO
+
 ### Pruebe el consumo del API
 
 > Con la aplicación Postman realice el consumo del servicio, configurando la URL (reemplace el {host_API} por el host generado para el APICast Staging), la opción de authorization y el body respectivo, si tiene dudas preguntele al instructor
@@ -235,7 +237,7 @@ Description: Aplicacion de ejemplo para consumir el API de consulta de saldo
 Methodo: POST
 URL API: https://{host_API}/consultaSaldo
 
-URL token: http://claro-sso-idp-desa.apps.osenext01.claro.amx/auth/realms/test/protocol/openid-connect/token
+URL token: https://claro-sso-idp-desa.apps.osenext01.claro.amx/auth/realms/test/protocol/openid-connect/token
 Client ID: <El que se tomo del punto anterior>
 Client Secret: <El que se tomo del punto anterior>
 
