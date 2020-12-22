@@ -2,8 +2,9 @@
 
 Laboratorio para crear un API en 3scale
 
-## Despliegue la aplicación
+## Aplicación a usar
 
+> Este laboratorio asume que esta desplegada la aplicación consulta de saldo en OpenShift y funciona correctamente, para desplegarla siga los pasos del archivo de instalación.
 
 ## Configuración de API en 3scale
 
