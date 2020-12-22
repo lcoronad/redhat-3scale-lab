@@ -103,7 +103,99 @@ System name: swagger_consulta_saldo_x
 Seleccione el check box Publish?
 Description: Documentación API consulta de saldo
 API JSON Spec: 
-
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "\"Consulta Saldo\""
+  },
+  "host": "0.0.0.0",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "consultas",
+      "description": "\"Consultar Saldo\""
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/consultaSaldo": {
+      "post": {
+        "tags": [
+          "consultas"
+        ],
+        "summary": "\"Consultar Saldo\"",
+        "operationId": "consultaSaldo",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ConsultaSaldoRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "success",
+            "schema": {
+              "$ref": "#/definitions/ConsultaSaldoResponse"
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "tags": [
+          "consultas"
+        ],
+        "summary": "\"Health\"",
+        "operationId": "health",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {}
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ConsultaSaldoRequest": {
+      "type": "object",
+      "properties": {
+        "numeroCuenta": {
+          "type": "string"
+        }
+      }
+    },
+    "ConsultaSaldoResponse": {
+      "type": "object",
+      "properties": {
+        "saldo": {
+          "type": "number"
+        },
+        "fecha": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}
 Seleccione el check box Skip swagger validations
 ```
 
