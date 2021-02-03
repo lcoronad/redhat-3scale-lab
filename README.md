@@ -24,7 +24,7 @@ Laboratorio para crear un API en 3scale
 Name: Consulta Saldo BK X
 System name: consulta_saldo_bk_x
 Description: Backend que implementa la consulta de saldo.
-Private Base URL: https://consulta-saldo-rhtest.apps.osepext01.claro.amx
+Private Base URL: http://consulta-saldo-poc3scale.apps.adesaocp1.nh.inet
 ```
 
 ### Crear y configurar el producto
