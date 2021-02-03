@@ -12,7 +12,7 @@ Laboratorio para crear un API en 3scale
 
 ### Crear el Backend
 
-> Ingresar a la URL [Admin Portal 3scale](https://3scale-admin.apps.osepext01.claro.amx/), las credenciales las indicará el instructor
+> Ingresar a la URL [Admin Portal 3scale](https://apidev-admin.apps.adesaocp1.nh.inet/), las credenciales las indicará el instructor
 
 > Seleccionar el tab Backends de la sección de APIs del Dashboard de 3scale
 
@@ -48,7 +48,7 @@ Description: API que expone la consulta de saldo
 Deployment: APIcast 3scale managed
 Authentication: OpenID Connect
 OpenID Connect Issuer Type: Red Hat Single Sign-On
-OpenID Connect Issuer: https://3scale-sso-sync:65dc647d-8afc-40c1-8a4d-8455d86c6139@claro-sso-idp-desa.apps.osenext01.claro.amx/auth/realms/test
+OpenID Connect Issuer: https://3scale-sso-sync:494c2a35-8868-4bc8-9981-6531d82c863c@sso-sso-app.apps.adesaocp1.nh.inet/auth/realms/api-ext-dev
 OICD Authorization Flow: Service Accounts Flow
 El resto de la parametrización dejarla por defecto.
 ```
@@ -242,7 +242,7 @@ Description: Aplicacion de ejemplo para consumir el API de consulta de saldo
 Methodo: POST
 URL API: https://{host_API}/consultaSaldo
 
-URL token: https://claro-sso-idp-desa.apps.osenext01.claro.amx/auth/realms/test/protocol/openid-connect/token
+URL token: https://sso-sso-app.apps.adesaocp1.nh.inet/auth/realms/api-ext-dev/protocol/openid-connect/token
 Client ID: <El que se tomo del punto anterior>
 Client Secret: <El que se tomo del punto anterior>
 
