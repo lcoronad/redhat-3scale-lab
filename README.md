@@ -210,7 +210,7 @@ Seleccione el check box Skip swagger validations
 
 ```
 Username: user_admin_x
-Email: user_admin_x@claro.com.ar
+Email: user_admin_x@telefonica.com.co
 Password: (genere uno que recuerde)
 Organization: Cuenta X
 ```
